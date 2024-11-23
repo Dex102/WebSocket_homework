@@ -1,0 +1,27 @@
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#chat {
+    height: 400px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+
+#messagesForm {
+    display: flex;
+}
+
+#inputMessages {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.systemMessages {
+    font-style: italic;
+}
